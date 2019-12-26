@@ -17,3 +17,5 @@ When dealing with objects or arrays, always make sure to spread your state varia
 The Effect Hook lets you perform _side effects_ in _functional components_
 
 It is a close replacement for _componentDidMount, componentDidUpdate_ and _componentWillUnmount_
+
+l11
