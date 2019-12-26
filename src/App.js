@@ -6,16 +6,20 @@ import HookCounter from "./components/HookCounter";
 import HookCounterTwo from "./components/HookCounterTwo";
 import HookCounterThree from "./components/HookCounterThree";
 import HookCounterFour from "./components/HookCounterFour";
+import ClassCounterOne from "./components/ClassCounterOne";
+import HookCounterOne from "./components/HookCounterOne";
 
 function App() {
   return (
     <div className="App">
       <div className="App-Wrapper">
-        <ClassCounter></ClassCounter>
-        <HookCounter></HookCounter>
-        <HookCounterTwo></HookCounterTwo>
-        <HookCounterThree></HookCounterThree>
-        <HookCounterFour></HookCounterFour>
+        {/*<ClassCounter></ClassCounter>*/}
+        {/*<HookCounter></HookCounter>*/}
+        {/*<HookCounterTwo></HookCounterTwo>*/}
+        {/*<HookCounterThree></HookCounterThree>*/}
+        {/*<HookCounterFour></HookCounterFour>*/}
+        <ClassCounterOne></ClassCounterOne>
+        <HookCounterOne></HookCounterOne>
       </div>
     </div>
   );
